@@ -209,7 +209,7 @@ if __name__ == "__main__":
     svg  = render(data)
     Path(OUT).write_text(svg, encoding="utf-8")
     print(
-        f"  ✓  {OUT}  ({SVG_W}\u00d7{SVG_H}px)  "
+        f"  [OK] {OUT}  ({SVG_W}x{SVG_H}px)  "
         f"{len(data.get('days', []))} days  "
         f"{data.get('total', 0):,} contributions"
     )

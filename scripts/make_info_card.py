@@ -17,22 +17,22 @@ STATIC = os.environ.get("STATIC") == "1"
 OUT    = "info-card.svg"
 
 # ── Your details ─────────────────────────────────────────────────────
-HANDLE  = "The Cipher Stack"
+HANDLE  = "ericksalazar-e // DevStation"
 DIVIDER = "\u2500" * 40          # ────────────────── (box-drawing dash)
 
 #   (key, value)  –  empty key = continuation / indent line
 FIELDS = [
-    ("OS",       "The Cipher Stack v2026"),
-    ("Host",     "Islamabad, Pakistan  |  PKT (UTC+5)"),
-    ("Role",     "Full-Stack Dev + Content Creator"),
-    ("Stack",    "React 19 \u00b7 Vite \u00b7 Tailwind v4 \u00b7 Framer Motion"),
-    ("",         "Flutter \u00b7 Python \u00b7 MySQL \u00b7 Supabase"),
-    ("Brand",    "The Cipher Stack"),
-    ("Social",   "fb.com/Hxni786  |  @the.cipher.stack (IG)"),
-    ("LinkedIn", "Syed Hassan Dildar"),
-    ("Web",      "a-talking-cinematic-portfolio-yfq6.vercel.app"),
-    ("Study",    "BSCS \u2192 ML / AI Research"),
-    ("GitHub",   "github.com/Hxni786"),
+    ("OS",       "Linux DevStation 2026 // Kernel 6.x"),
+    ("Host",     "Lima, Peru  |  PET (UTC-5)"),
+    ("User",     "Erick Cesar Salazar Enriquez"),
+    ("Role",     "Software Engineer Student & Full-Stack Dev"),
+    ("Study",    "Ingenieria de Software — UPC"),
+    ("Company",  "Ukuku"),
+    ("Stack",    "React \u00b7 Next.js \u00b7 Node.js \u00b7 TypeScript \u00b7 Tailwind"),
+    ("",         "Python \u00b7 Java \u00b7 C# \u00b7 MySQL \u00b7 PostgreSQL \u00b7 MongoDB"),
+    ("Status",   "Building scalable web apps & modern UIs \u2728"),
+    ("LinkedIn", "linkedin.com/in/ericksalazar-e"),
+    ("GitHub",   "github.com/ericksalazar-e"),
 ]
 
 # ── Palette ──────────────────────────────────────────────────────────
@@ -156,6 +156,6 @@ def make_svg() -> str:
 
 if __name__ == "__main__":
     mode = "STATIC" if STATIC else "animated"
-    print(f"Generating {OUT} ({mode}) …")
+    print(f"Generating {OUT} ({mode}) ...")
     Path(OUT).write_text(make_svg(), encoding="utf-8")
-    print(f"  ✓  {OUT}  ({SVG_W}\u00d7{SVG_H}px, {N_LINES} lines)")
+    print(f"  [OK] {OUT}  ({SVG_W}x{SVG_H}px, {N_LINES} lines)")

@@ -16,7 +16,7 @@ import requests
 from bs4 import BeautifulSoup
 
 
-USERNAME    = "Hxni786"
+USERNAME    = "ericksalazar-e"
 URL         = f"https://github.com/users/{USERNAME}/contributions"
 HEADERS     = {"User-Agent": "Mozilla/5.0 (compatible; profile-art-bot/1.0)"}
 TIMEOUT     = 20    # seconds
@@ -127,7 +127,7 @@ def fetch():
     out_path.write_text(json.dumps(output, indent=2), encoding="utf-8")
 
     print(
-        f"  ✓  {len(days)} days fetched  |  "
+        f"  [OK] {len(days)} days fetched  |  "
         f"{stats['total']:,} total contributions  |  "
         f"streak: {stats['current_streak']} days  |  "
         f"best: {stats['best_day']['count']} on {stats['best_day']['date']}"

@@ -37,7 +37,7 @@ def prep(src: str, out: str = "source-prepped.png") -> None:
 
     # ── 4. Save ───────────────────────────────────────────────────────
     Image.fromarray(enhanced).save(out)
-    print(f"  ✓  Saved → {out}")
+    print(f"  [OK] Saved -> {out}")
 
 
 if __name__ == "__main__":
