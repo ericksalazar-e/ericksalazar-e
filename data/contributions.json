@@ -1,6 +1,6 @@
 {
   "username": "ericksalazar-e",
-  "fetched": "2026-10-13",
+  "fetched": "2026-10-14",
   "days": [
     {
       "date": "2025-10-12",
@@ -1834,13 +1834,18 @@
     },
     {
       "date": "2026-10-13",
+      "level": 2,
+      "count": 5
+    },
+    {
+      "date": "2026-10-14",
       "level": 0,
       "count": 0
     }
   ],
-  "total": 85,
-  "current_streak": 14,
-  "longest_streak": 14,
+  "total": 90,
+  "current_streak": 15,
+  "longest_streak": 15,
   "best_day": {
     "date": "2026-07-22",
     "level": 4,
