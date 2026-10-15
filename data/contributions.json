@@ -1,6 +1,6 @@
 {
   "username": "ericksalazar-e",
-  "fetched": "2026-10-14",
+  "fetched": "2026-10-15",
   "days": [
     {
       "date": "2025-10-12",
@@ -1419,8 +1419,8 @@
     },
     {
       "date": "2026-07-22",
-      "level": 4,
-      "count": 10
+      "level": 2,
+      "count": 5
     },
     {
       "date": "2026-07-23",
@@ -1749,8 +1749,8 @@
     },
     {
       "date": "2026-09-26",
-      "level": 0,
-      "count": 0
+      "level": 2,
+      "count": 5
     },
     {
       "date": "2026-09-27",
@@ -1764,90 +1764,95 @@
     },
     {
       "date": "2026-09-29",
-      "level": 2,
-      "count": 5
-    },
-    {
-      "date": "2026-09-30",
-      "level": 2,
-      "count": 5
-    },
-    {
-      "date": "2026-10-01",
-      "level": 2,
-      "count": 5
-    },
-    {
-      "date": "2026-10-02",
-      "level": 2,
-      "count": 5
-    },
-    {
-      "date": "2026-10-03",
-      "level": 2,
-      "count": 5
-    },
-    {
-      "date": "2026-10-04",
-      "level": 2,
-      "count": 5
-    },
-    {
-      "date": "2026-10-05",
-      "level": 2,
-      "count": 5
-    },
-    {
-      "date": "2026-10-06",
-      "level": 2,
-      "count": 5
-    },
-    {
-      "date": "2026-10-07",
-      "level": 2,
-      "count": 5
-    },
-    {
-      "date": "2026-10-08",
-      "level": 2,
-      "count": 5
-    },
-    {
-      "date": "2026-10-09",
-      "level": 2,
-      "count": 5
-    },
-    {
-      "date": "2026-10-10",
-      "level": 2,
-      "count": 5
-    },
-    {
-      "date": "2026-10-11",
       "level": 4,
       "count": 10
     },
     {
+      "date": "2026-09-30",
+      "level": 1,
+      "count": 2
+    },
+    {
+      "date": "2026-10-01",
+      "level": 1,
+      "count": 2
+    },
+    {
+      "date": "2026-10-02",
+      "level": 1,
+      "count": 2
+    },
+    {
+      "date": "2026-10-03",
+      "level": 1,
+      "count": 2
+    },
+    {
+      "date": "2026-10-04",
+      "level": 1,
+      "count": 2
+    },
+    {
+      "date": "2026-10-05",
+      "level": 1,
+      "count": 2
+    },
+    {
+      "date": "2026-10-06",
+      "level": 1,
+      "count": 2
+    },
+    {
+      "date": "2026-10-07",
+      "level": 1,
+      "count": 2
+    },
+    {
+      "date": "2026-10-08",
+      "level": 1,
+      "count": 2
+    },
+    {
+      "date": "2026-10-09",
+      "level": 1,
+      "count": 2
+    },
+    {
+      "date": "2026-10-10",
+      "level": 1,
+      "count": 2
+    },
+    {
+      "date": "2026-10-11",
+      "level": 1,
+      "count": 2
+    },
+    {
       "date": "2026-10-12",
-      "level": 2,
-      "count": 5
+      "level": 1,
+      "count": 2
     },
     {
       "date": "2026-10-13",
-      "level": 2,
-      "count": 5
+      "level": 1,
+      "count": 2
     },
     {
       "date": "2026-10-14",
+      "level": 1,
+      "count": 2
+    },
+    {
+      "date": "2026-10-15",
       "level": 0,
       "count": 0
     }
   ],
-  "total": 90,
-  "current_streak": 15,
-  "longest_streak": 15,
+  "total": 50,
+  "current_streak": 16,
+  "longest_streak": 16,
   "best_day": {
-    "date": "2026-07-22",
+    "date": "2026-09-29",
     "level": 4,
     "count": 10
   }
