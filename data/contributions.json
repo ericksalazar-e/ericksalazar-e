@@ -1,42 +1,7 @@
 {
   "username": "ericksalazar-e",
-  "fetched": "2026-11-07",
+  "fetched": "2026-11-08",
   "days": [
-    {
-      "date": "2025-11-02",
-      "level": 0,
-      "count": 0
-    },
-    {
-      "date": "2025-11-03",
-      "level": 0,
-      "count": 0
-    },
-    {
-      "date": "2025-11-04",
-      "level": 0,
-      "count": 0
-    },
-    {
-      "date": "2025-11-05",
-      "level": 0,
-      "count": 0
-    },
-    {
-      "date": "2025-11-06",
-      "level": 0,
-      "count": 0
-    },
-    {
-      "date": "2025-11-07",
-      "level": 0,
-      "count": 0
-    },
-    {
-      "date": "2025-11-08",
-      "level": 0,
-      "count": 0
-    },
     {
       "date": "2025-11-09",
       "level": 0,
@@ -1854,12 +1819,17 @@
     },
     {
       "date": "2026-11-07",
+      "level": 1,
+      "count": 2
+    },
+    {
+      "date": "2026-11-08",
       "level": 0,
       "count": 0
     }
   ],
-  "total": 94,
-  "current_streak": 1,
+  "total": 96,
+  "current_streak": 2,
   "longest_streak": 37,
   "best_day": {
     "date": "2026-09-29",
